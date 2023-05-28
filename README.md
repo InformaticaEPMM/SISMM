@@ -57,7 +57,11 @@ git clone https://github.com/InformaticaEPMM/Sistema-Mano-Meeting
 Depois, siga essa ordem de comandos:
 
 ```
-empty
+npm install
+```
+
+```
+npm run dev
 ```
 
 
