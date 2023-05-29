@@ -15,11 +15,17 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+:small_blue_diamond: [Layout da Aplicação](#layout-da-aplicação)
 
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação)
+
+:small_blue_diamond: [Casos de uso](#casos-de-uso)
+  
+:small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#linguagens-dependencias-e-libs-utilizadas)
+
+:small_blue_diamond: [Desenvolvedores e Contribuintes](#desenvolvedores-e-contribuintes-octocat)
 
 ## Descrição do projeto 
 
@@ -37,7 +43,7 @@
 
 :heavy_check_mark: Gerar relatórios automaticamente após cada reunião e manualmente a cada semana e/ou mês.
 
-## Layout ou Deploy da Aplicação
+## Layout da Aplicação
 
 > empty
 
@@ -46,7 +52,7 @@
 :warning: [NodeJS](https://nodejs.org/en/download/)
 
 
-## Como rodar a aplicação 
+## Como rodar a aplicação
 
 No terminal, clone o projeto: 
 
@@ -82,9 +88,12 @@ empty
 
 - [React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
 - [React PDF](https://react-pdf.org/)
+- [NodeJS](https://nodejs.org/en/about)
+- [PHP](https://www.php.net/docs.php)
+- [MySQL](https://dev.mysql.com/doc/)
 
 
-## Desenvolvedores/Contribuintes :octocat:
+## Desenvolvedores e Contribuintes :octocat:
 
 | [<img src="https://avatars.githubusercontent.com/u/102603196?s=400&u=0a5c38586563399967952525e7ba0cb7402f3df2&v=4" width=115><br><sub>Rayanne Melo</sub>](https://github.com/rayannemd) | [<img src="https://avatars.githubusercontent.com/u/102837037?v=4" width=115><br><sub>Avelino Lima</sub>](https://github.com/avelinogomes2005) | [<img src="https://avatars.githubusercontent.com/u/99053395?v=4" width=115><br><sub>Pedro Henrique</sub>](https://github.com/Pedro77h) | [<img src="https://avatars.githubusercontent.com/u/95438036?v=4" width=115><br><sub>Douglas Neres</sub>](https://github.com/DouglasNeres) | [<img src="https://avatars.githubusercontent.com/u/104690519?v=4" width=115><br><sub>Mairton Rodrigues</sub>](https://github.com/mairtonr) 
 | :---: | :---: | :---:  | :---: | :---: 
