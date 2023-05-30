@@ -1,0 +1,36 @@
+.bgAccessibilityField {
+  background: linear-gradient(90deg, #204d37 0%, #00853b 40%);
+  width: 100%;
+  height: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: var(--padding-geral);
+}
+
+.accessibilityField {
+  background-color: rgba(0, 0, 0, 0.15);
+  height: 1.5rem;
+  padding: 0 .5rem;
+  margin-bottom: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--primary-color-light);
+}
+
+.iconsAccessibility {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.iconsAccessibility img,
+span,
+svg {
+  cursor: pointer;
+}

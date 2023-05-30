@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  height: 12rem;
+  width: 100%;
+  padding: var(--padding-geral);
+  background: var(--color_background) url(../../assets/waves.svg) no-repeat bottom left;
+  border-bottom: 5px solid var(--primary-color-green);
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+.rightContent{
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color-green);
+}
+
+.rightContent h1{
+  text-align: right;
+  width: 32rem;
+}
+
+.rightContent a{
+  color: var(--primary-color-green);
+}
+
+.loginTitle{
+  text-transform: uppercase;
+  font-size: 3rem;
+}
