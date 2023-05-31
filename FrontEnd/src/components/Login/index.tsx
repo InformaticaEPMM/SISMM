@@ -35,6 +35,7 @@ export function LoginIndex() {
 								) : (
 									<BsEyeSlash size={25} onClick={() => setIsOpen('open')} />
 								)}
+								
 							</div>
 						</div>
 					</div>
