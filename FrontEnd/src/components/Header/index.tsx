@@ -18,7 +18,7 @@ export function HeaderIndex({ model }: IHeaderProps) {
 			<div className="rightContent">
 				{model === 'home' ? (
 					<>
-						<h1>Nome, o segredo do sucesso é a constância no objetivo.</h1>
+						<h1 className='homeTitle'>Nome, o segredo do sucesso é a constância no objetivo.</h1>
 						<Link to="/">
 							<FaCalendarAlt size={50} />
 						</Link>
