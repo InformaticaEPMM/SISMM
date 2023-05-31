@@ -5,7 +5,7 @@
   flex-direction: column;
   background-color: var(--color_background);
   color: var(--color_letters);
-  height: 100vh;
+  height: 70vh;
 }
 
 .content {
