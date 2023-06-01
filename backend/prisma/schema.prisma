@@ -15,12 +15,15 @@ model Teacher {
   name     String
   email    String
   password String
+  area     String
+  googleId String @unique
 }
 
 model Meet {
   id       String   @id @default(uuid())
   title    String
   date     DateTime
+  area     String
   notes    Notes[]
   report   Report   @relation(fields: [reportId], references: [id])
   reportId String   @unique
