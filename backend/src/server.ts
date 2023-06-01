@@ -22,6 +22,10 @@ export class Server {
     this.app.use(express.json());
     this.app.use(cors());
   }
+
+  private routes() {
+    
+  }
 }
 
 new Server();

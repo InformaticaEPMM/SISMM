@@ -1,0 +1,44 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Teacher {
+  id       String @id @default(uuid())
+  name     String
+  email    String
+  password String
+  area     String
+  googleId String @unique
+}
+
+model Meet {
+  id       String   @id @default(uuid())
+  title    String
+  date     DateTime
+  area     String
+  notes    Notes[]
+  report   Report   @relation(fields: [reportId], references: [id])
+  reportId String   @unique
+}
+
+model Notes {
+  id     String  @id @default(uuid())
+  title  String
+  Meet   Meet?   @relation(fields: [meetId], references: [id])
+  meetId String?
+}
+
+model Report {
+  id    String   @id @default(uuid())
+  title String
+  date  DateTime
+  Meet  Meet?
+}
