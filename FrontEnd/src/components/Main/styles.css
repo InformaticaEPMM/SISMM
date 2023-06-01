@@ -1,0 +1,38 @@
+.mainTop{
+  width: 100%;
+}
+
+.mainTop a{
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.goalsMeeting, .subjects{
+  display: flex;
+  align-items: center;
+}
+
+.goalsMeeting {
+  gap: 1rem;
+  padding: 0 1rem;
+  background-color: var(--primary-color-green);
+  height: 2.5rem;  
+}
+
+.goalsMeeting a{
+  color: var(--primary-color-light);
+}
+
+.subjects{
+  padding: 0 1rem;
+  background-color: var(--secondary-color-gray);
+  height: 1.5rem;
+}
+
+.subjects a{
+  color: var(--primary-color-green);
+}
+
+.link-ativo {
+  text-decoration: underline;
+}
