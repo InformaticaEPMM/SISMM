@@ -1,0 +1,43 @@
+.mainTop{
+  width: 100%;
+}
+
+.mainTop a{
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.goalsMeeting, .subjects{
+  display: flex;
+  align-items: center;
+}
+
+.goalsMeeting {
+  gap: 1rem;
+  padding: 0 1.8rem;
+  background-color: var(--primary-color-green);
+  height: 2.5rem;  
+}
+
+.goalsMeeting a{
+  color: var(--primary-color-light);
+}
+
+.subjects{
+  padding: 0 1rem;
+  background-color: var(--secondary-color-gray);
+  height: 2rem;
+}
+
+.subjects a{
+  color: var(--primary-color-green);
+  padding: 0 .8rem;
+}
+
+.link-ativo {
+  text-decoration: underline;
+}
+
+.subjects a:nth-child(-n + 3){
+  border-right: 2px solid var(--primary-color-green);
+} 
