@@ -15,7 +15,7 @@ export function SideBarIndex(/* { profile, name }: IUserInfoProps */) {
 			<div className="sidebarContent">
 				<UserProf />
 				<div className="navigation">
-					<Link to="">Cadernos de anotações</Link>
+					<Link to="/notions">Cadernos de anotações</Link>
 					<Link to="">Relatórios</Link>
 					<Link to="">Corpo docente</Link>
 				</div>
